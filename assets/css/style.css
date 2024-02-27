@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    /* Sets background color to white */
+    background-color: #d9dcd6;
+}
+
+header {
+    /* Adds padding of 20px, sets the font style of the header and adds background and text color */
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+header h1 {
+    /*Seperates title of the header and changes the font size to 48px*/
+    display: inline-block;
+    font-size: 48px;
+}
+
+header h1 .seo {
+    /*Sets color for part of the title*/
+    color: #d9dcd6;
+}
+
+header nav {
+    /*Adds conditions to the nav in the header while changing the font style and font size*/
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+header nav ul {
+    /*Removes markers for the list*/
+    list-style-type: none;
+}
+
+header nav ul li {
+    /*Seperates the nav of the header and gives a margin of 25px from the left*/
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a {
+    /*Makes text white and removes underline from text*/
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    /*Makes font size 16px*/
+    font-size: 16px;
+}
+
+figure {
+    /*Determines conditions and size of img under the header*/
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.float-left {
+    /*Sets img to the left of the section*/
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    /*Sets img to the left of the section*/
+    float: right;
+    margin-left: 25px;
+}
+
+main {
+    /*Determines width of main and creates a 20px margin from the left*/
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+aside {
+    /*Sets conditions, determines size, sets text font and color of the aside element*/
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+.section-title {
+    /*Determines conditions,sets font style, sets background color, and sets text color of the section titles*/
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.section-title img {
+    /*Sets section img height*/
+    max-height: 200px;
+}
+
+.section-title h2 {
+    /*Sets conditions for section paragraph text*/
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.benefits {
+    /*Sets margin and color of aside title*/
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefits h3 {
+    /*Sets margin and text condtions for aside paragraph text*/
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefits img {
+    /*Sets conditions for aside imgs*/
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+footer {
+    /*Sets conditions and sets font style of footer title*/
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+footer h3 {
+    /*Sets font size of footer paragraph*/
+    font-size: 20px;
+}
